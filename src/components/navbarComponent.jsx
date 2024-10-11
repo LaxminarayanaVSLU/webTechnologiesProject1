@@ -10,12 +10,12 @@ export function NavBarComponent({ currentPage: initialPage }) {
   const handleHomeNavigation = () => {
     console.log("navigating to home!");
     setCurrentPage("HomePage"); // Update currentPage if needed
-    navigate("/");
+    navigate("/webTechnologiesProject1/");
   };
 
   return (
     <Navbar bg="primary" data-bs-theme="dark" expand="lg" sticky="top">
-      <Navbar.Brand href="/">
+      <Navbar.Brand href="/webTechnologiesProject1/">
         <img
           src={logo}
           width="30"
@@ -29,16 +29,16 @@ export function NavBarComponent({ currentPage: initialPage }) {
       <Container fluid>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="/" active={currentPage === "HomePage"}>
+            <Nav.Link href="/webTechnologiesProject1/" active={currentPage === "HomePage"}>
               Home
             </Nav.Link>
-            <Nav.Link href="/content" active={currentPage === "ContentPage"}>
+            <Nav.Link href="/webTechnologiesProject1/content" active={currentPage === "ContentPage"}>
               Content
             </Nav.Link>
-            <Nav.Link href="/taxonomy" active={currentPage === "TaxonomyPage"}>
+            <Nav.Link href="/webTechnologiesProject1/taxonomy" active={currentPage === "TaxonomyPage"}>
               Taxonomy
             </Nav.Link>
-            <Nav.Link href="/team" active={currentPage === "TeamPage"}>
+            <Nav.Link href="/webTechnologiesProject1/team" active={currentPage === "TeamPage"}>
               Team
             </Nav.Link>
           </Nav>
