@@ -1,12 +1,20 @@
-import logo from './styles/images/logo.svg';
-import './styles/css/App.css';
-import { NavBarComponent } from './components/navbarComponent';
+import ContentPageComponent from "./components/ContentPageComponent";
+import HomePageComponent from "./components/HomePageComponent";
+import TaxonomyPageComponent from "./components/TaxonomyPageComponent";
+import TeamPageComponent from "./components/TeamPageComponent";
+import "./styles/css/App.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <NavBarComponent/>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePageComponent />} />
+        <Route path="/content" element={<ContentPageComponent />} />
+        <Route path="/team" element={<TeamPageComponent />} />
+        <Route path="/taxonomy" element={<TaxonomyPageComponent />} />
+      </Routes>
+    </Router>
   );
 }
 

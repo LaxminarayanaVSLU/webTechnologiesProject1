@@ -1,25 +1,63 @@
-import { Button, Navbar } from "flowbite-react";
+import { Navbar, Nav, Button, Container } from "react-bootstrap";
+import { useState } from "react";
+import logo from "../styles/images/logo.svg";
+import { useNavigate } from "react-router-dom";
 
-export function NavBarComponent() {
+export function NavBarComponent({ currentPage: initialPage }) {
+  const navigate = useNavigate();
+  const [currentPage, setCurrentPage] = useState(initialPage);
+
+  const handleHomeNavigation = () => {
+    console.log("navigating to home!");
+    setCurrentPage("HomePage"); // Update currentPage if needed
+    navigate("/");
+  };
+
   return (
-    <Navbar fluid rounded>
-      <Navbar.Brand href="https://flowbite-react.com">
-        <img src="/favicon.svg" className="mr-3 h-6 sm:h-9" alt="Flowbite React Logo" />
-        <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">Flowbite React</span>
+    <Navbar bg="primary" data-bs-theme="dark" expand="lg" sticky="top">
+      <Navbar.Brand href="/">
+        <img
+          src={logo}
+          width="30"
+          height="30"
+          className="d-inline-block align-top"
+          alt="React Logo"
+        />
+        {"Smart Contracts"}
       </Navbar.Brand>
-      <div className="flex md:order-2">
-        <Button>Get started</Button>
-        <Navbar.Toggle />
-      </div>
-      <Navbar.Collapse>
-        <Navbar.Link href="#" active>
-          Home
-        </Navbar.Link>
-        <Navbar.Link href="#">About</Navbar.Link>
-        <Navbar.Link href="#">Services</Navbar.Link>
-        <Navbar.Link href="#">Pricing</Navbar.Link>
-        <Navbar.Link href="#">Contact</Navbar.Link>
-      </Navbar.Collapse>
+      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+      <Container fluid>
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="me-auto">
+            <Nav.Link href="/" active={currentPage === "HomePage"}>
+              Home
+            </Nav.Link>
+            <Nav.Link href="/content" active={currentPage === "ContentPage"}>
+              Content
+            </Nav.Link>
+            <Nav.Link href="/taxonomy" active={currentPage === "TaxonomyPage"}>
+              Taxonomy
+            </Nav.Link>
+            <Nav.Link href="/team" active={currentPage === "TeamPage"}>
+              Team
+            </Nav.Link>
+          </Nav>
+          <Button onClick={handleHomeNavigation}>
+            <span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-house"
+                viewBox="0 0 16 16"
+              >
+                <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z" />
+              </svg>
+            </span>
+          </Button>
+        </Navbar.Collapse>
+      </Container>
     </Navbar>
   );
 }
