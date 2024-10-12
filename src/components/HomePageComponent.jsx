@@ -18,10 +18,9 @@ const HomePageComponent = () => {
 
   return (
     <div>
-      <NavBarComponent currentPage="HomePage" />
 
       <div>
-        <section id="why-us" className="why-us section-bg">
+        <section id="home" className="why-us section-bg">
           <div className="container-fluid" data-aos="fade-up">
             <div className="row">
               <div className="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">

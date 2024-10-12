@@ -16,7 +16,9 @@ const ContentPageComponent = () => {
 
   return (
     <div>
-      <NavBarComponent currentPage="ContentPage" />
+      {/* <NavBarComponent currentPage="ContentPage" /> */}
+
+    <section id="content">
     <br></br>
       <Container>
         <Row>
@@ -137,6 +139,7 @@ const ContentPageComponent = () => {
           </Col>
         </Row>
       </Container>
+      </section>
     </div>
   );
 };
