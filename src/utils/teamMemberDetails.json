@@ -1,0 +1,27 @@
+{
+  "tanmaye": {
+    "name": "Tanmayee Gayathri",
+    "details": "Computer Science major at Saint Louis University, graduating in May 2025. My expertise lies in software engineering, machine learning, and web development, with proficiency in Python, Django, React, and Docker. I've worked on diverse projects, including predictive analytics and web applications.",
+    "achievements": "need to ask"
+  },
+  "lax": {
+    "name": "Laxminarayana Vadnala",
+    "details": "Senior Computer Science major from Lindenhurst, Illinois. Previously Software Engineer Co-op for Bayer Crop Science in Creve Coeur. I enjoy photography and playing games on the side, and have a personal website to showcase both photo/video and SWE experience.",
+    "achievements": "need to ask"
+  },
+  "paul": {
+    "name": "Paul Ongkiko",
+    "details": "Senior Computer Science major from Lindenhurst, Illinois. Previously Software Engineer Co-op for Bayer Crop Science in Creve Coeur. I enjoy photography and playing games on the side, and have a personal website to showcase both photo/video and SWE experience.",
+    "achievements": "need to ask"
+  },
+  "krishna": {
+    "name": "Krishna Teja Rangavajjala",
+    "details": "Pursuing a master’s degree in Computer Science. I completed my undergraduate studies in Information Technology at CVR College of Engineering. After finishing my undergraduate program, I directly started my master’s program. I have a strong understanding of Java, HTML, CSS, JavaScript, basic React, basic Spring, JDBC, SQL, Python, and machine learning. During my undergraduate studies, I worked on two projects: a movie recommendation system using Python, and a project that predicted hotel booking cancellations using machine learning.",
+    "achievements": "need to ask"
+  },
+  "roshitha": {
+    "name": "Roshitha Makula",
+    "details": "a master's student in Computer Science with a strong foundation in C, Python, Machine Learning, Databases, Design and Analysis of Algorithms, and React.js. My academic journey has included two impactful research projects, ⁠Updating of GIS Maps with Water Bodies Change Detection, ⁠Cotton Plant Disease Prediction. Currently, I am pursuing advanced courses in web technologies, AI, and ML to further enhance my expertise in software engineering and machine learning applications.",
+    "achievements": "need to ask"
+  }
+}
