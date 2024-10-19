@@ -1,5 +1,3 @@
-import { NavBarComponent } from "./navbarComponent";
-
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -18,7 +16,6 @@ const HomePageComponent = () => {
 
   return (
     <div>
-
       <div>
         <section id="home" className="why-us section-bg">
           <div className="container-fluid" data-aos="fade-up">

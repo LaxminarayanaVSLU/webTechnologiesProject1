@@ -22,7 +22,7 @@ const SinglePageComponent = () => {
 
   return (
     <div>
-      <NavBarComponent currentPage="HomePage" />
+      <NavBarComponent />
       <HomePageComponent />
       <ContentPageComponent />
       <TaxonomyPageComponent />
