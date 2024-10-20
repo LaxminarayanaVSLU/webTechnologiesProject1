@@ -62,7 +62,7 @@ const TeamPageComponent = () => {
           <br />
           <Container>
             <Row>
-              <Col>
+              <Col className="d-flex justify-content-center align-items-center">
                 <Card style={{ width: "20rem" }} data-aos="fade-up">
                   <Image
                     src={tanmayee}
@@ -81,7 +81,7 @@ const TeamPageComponent = () => {
                 </Card>
               </Col>
 
-              <Col>
+              <Col className="d-flex justify-content-center align-items-center">
                 <Card style={{ width: "20rem" }} data-aos="fade-up">
                   <Image src={paul} roundedCircle className="fixed-size-img" />
                   <Card.Body>
@@ -96,7 +96,7 @@ const TeamPageComponent = () => {
                 </Card>
               </Col>
 
-              <Col>
+              <Col className="d-flex justify-content-center align-items-center">
                 <Card style={{ width: "20rem" }} data-aos="fade-up">
                   <Image src={lax} roundedCircle className="fixed-size-img" />
                   <Card.Body>
@@ -112,7 +112,7 @@ const TeamPageComponent = () => {
             <br />
 
             <Row>
-              <Col>
+              <Col className="d-flex justify-content-center align-items-center">
                 <Card style={{ width: "20rem" }} data-aos="fade-up">
                   <Image
                     src={krishna}
@@ -131,7 +131,7 @@ const TeamPageComponent = () => {
                 </Card>
               </Col>
 
-              <Col>
+              <Col className="d-flex justify-content-center align-items-center">
                 <Card style={{ width: "20rem" }} data-aos="fade-up">
                   <Image
                     src={roshitha}
@@ -150,7 +150,7 @@ const TeamPageComponent = () => {
                 </Card>
               </Col>
 
-              <Col></Col>
+              {/* <Col></Col> */}
             </Row>
           </Container>
           <br />

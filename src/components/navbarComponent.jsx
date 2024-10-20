@@ -1,6 +1,6 @@
 import { Navbar, Nav, Button, Container } from "react-bootstrap";
 import { useState, useEffect } from "react";
-import logo from "../styles/images/logo.svg";
+import logo from "../styles/images/logo-smart-contracts.png";
 
 export function NavBarComponent() {
   // const navigate = useNavigate();
