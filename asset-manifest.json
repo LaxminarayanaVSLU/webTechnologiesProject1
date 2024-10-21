@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/webTechnologiesProject1/static/css/main.4abf619e.css",
-    "main.js": "/webTechnologiesProject1/static/js/main.cfc182dc.js",
+    "main.css": "/webTechnologiesProject1/static/css/main.4583abd3.css",
+    "main.js": "/webTechnologiesProject1/static/js/main.80f2eec1.js",
     "static/media/lax.jpg": "/webTechnologiesProject1/static/media/lax.067bc6cf77e8c519da0d.jpg",
     "static/media/krishna.jpeg": "/webTechnologiesProject1/static/media/krishna.dfb24df75d84f100032a.jpeg",
     "static/media/tanmaye.jpeg": "/webTechnologiesProject1/static/media/tanmaye.601dc5b221080fdf9b39.jpeg",
     "static/media/smart-contracts.jpg": "/webTechnologiesProject1/static/media/smart-contracts.eed5fe08cf96c751bb17.jpg",
     "static/media/roshitha.jpeg": "/webTechnologiesProject1/static/media/roshitha.c8bc112a9eaac2f0f62d.jpeg",
     "static/media/paul.jpeg": "/webTechnologiesProject1/static/media/paul.8e1ad19bd26bb5e97e89.jpeg",
+    "static/media/BlockChain_Survey_Paper.pdf": "/webTechnologiesProject1/static/media/BlockChain_Survey_Paper.cf872c753e30fad84a16.pdf",
     "static/media/home-page-background.avif": "/webTechnologiesProject1/static/media/home-page-background.7e5082fb81231906b4b9.avif",
     "static/media/logo-smart-contracts.png": "/webTechnologiesProject1/static/media/logo-smart-contracts.46de0e1d2bbb76d083a9.png",
     "index.html": "/webTechnologiesProject1/index.html",
-    "main.4abf619e.css.map": "/webTechnologiesProject1/static/css/main.4abf619e.css.map",
-    "main.cfc182dc.js.map": "/webTechnologiesProject1/static/js/main.cfc182dc.js.map"
+    "main.4583abd3.css.map": "/webTechnologiesProject1/static/css/main.4583abd3.css.map",
+    "main.80f2eec1.js.map": "/webTechnologiesProject1/static/js/main.80f2eec1.js.map"
   },
   "entrypoints": [
-    "static/css/main.4abf619e.css",
-    "static/js/main.cfc182dc.js"
+    "static/css/main.4583abd3.css",
+    "static/js/main.80f2eec1.js"
   ]
 }
