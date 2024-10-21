@@ -8,6 +8,7 @@ import lax from "../styles/images/lax.jpg";
 import krishna from "../styles/images/krishna.jpeg";
 import roshitha from "../styles/images/roshitha.jpeg";
 import "../styles/css/imagesRel.css";
+import PDFViewer from "./PDFViewerComponent";
 
 const images = [
   {
@@ -43,11 +44,15 @@ const TaxonomyPageComponent = () => {
   }, []);
 
   return (
-    <div>
+    <div style={{ backgroundColor: "#f0f8ff" }}>
       {/* <NavBarComponent currentPage="TaxonomyPage" /> */}
       <br></br>
 
       <section id="taxonomy">
+        <Container>
+          <PDFViewer />
+        </Container>
+
         <Container>
           {/* Carousel Section */}
           <Row className="mb-4">

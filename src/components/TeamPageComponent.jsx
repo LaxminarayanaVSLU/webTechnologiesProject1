@@ -34,7 +34,6 @@ const TeamPageComponent = () => {
   const handleClose = () => {
     setSelectedPerson("");
     setShow(false);
-
   };
 
   useEffect(() => {
@@ -63,12 +62,8 @@ const TeamPageComponent = () => {
           <Container>
             <Row>
               <Col className="d-flex justify-content-center align-items-center">
-                <Card style={{ width: "20rem" }} data-aos="fade-up">
-                  <Image
-                    src={tanmayee}
-                    roundedCircle
-                    className="fixed-size-img"
-                  />
+                <Card style={{ width: "12rem" }} data-aos="fade-up">
+                  <Image src={tanmayee} className="fixed-size-img" />
                   <Card.Body>
                     <Card.Title>Tanmayee Bachinappa</Card.Title>
                     <Button
@@ -82,8 +77,8 @@ const TeamPageComponent = () => {
               </Col>
 
               <Col className="d-flex justify-content-center align-items-center">
-                <Card style={{ width: "20rem" }} data-aos="fade-up">
-                  <Image src={paul} roundedCircle className="fixed-size-img" />
+                <Card style={{ width: "12rem" }} data-aos="fade-up">
+                  <Image src={paul} className="fixed-size-img" />
                   <Card.Body>
                     <Card.Title>Paul Ongkiko</Card.Title>
                     <Button
@@ -97,8 +92,8 @@ const TeamPageComponent = () => {
               </Col>
 
               <Col className="d-flex justify-content-center align-items-center">
-                <Card style={{ width: "20rem" }} data-aos="fade-up">
-                  <Image src={lax} roundedCircle className="fixed-size-img" />
+                <Card style={{ width: "12rem" }} data-aos="fade-up">
+                  <Image src={lax} className="fixed-size-img" />
                   <Card.Body>
                     <Card.Title>Laxminarayana Vadnala</Card.Title>
                     <Button variant="primary" onClick={() => handleShow("lax")}>
@@ -107,18 +102,9 @@ const TeamPageComponent = () => {
                   </Card.Body>
                 </Card>
               </Col>
-            </Row>
-
-            <br />
-
-            <Row>
               <Col className="d-flex justify-content-center align-items-center">
-                <Card style={{ width: "20rem" }} data-aos="fade-up">
-                  <Image
-                    src={krishna}
-                    roundedCircle
-                    className="fixed-size-img"
-                  />
+                <Card style={{ width: "12rem" }} data-aos="fade-up">
+                  <Image src={krishna} className="fixed-size-img" />
                   <Card.Body>
                     <Card.Title>Krishna Teja Rangavajjala</Card.Title>
                     <Button
@@ -132,12 +118,8 @@ const TeamPageComponent = () => {
               </Col>
 
               <Col className="d-flex justify-content-center align-items-center">
-                <Card style={{ width: "20rem" }} data-aos="fade-up">
-                  <Image
-                    src={roshitha}
-                    roundedCircle
-                    className="fixed-size-img"
-                  />
+                <Card style={{ width: "12rem" }} data-aos="fade-up">
+                  <Image src={roshitha} className="fixed-size-img" />
                   <Card.Body>
                     <Card.Title>Roshitha Makula</Card.Title>
                     <Button
