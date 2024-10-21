@@ -54,26 +54,6 @@ const TaxonomyPageComponent = () => {
         </Container>
 
         <Container>
-          {/* Carousel Section */}
-          <Row className="mb-4">
-            <Col>
-              <Carousel data-aos="fade-up">
-                {images.map((image, index) => (
-                  <Carousel.Item key={index}>
-                    <img
-                      className="d-block w-100 fixed-size-img"
-                      src={image.src}
-                      alt={`Slide ${index + 1}`}
-                    />
-                    <Carousel.Caption>
-                      <h5>{image.description}</h5>
-                    </Carousel.Caption>
-                  </Carousel.Item>
-                ))}
-              </Carousel>
-            </Col>
-          </Row>
-
           {/* Content Section */}
           <Row>
             {Array.from({ length: 8 }).map((_, index) => (
