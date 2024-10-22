@@ -23,33 +23,33 @@ const ContentPageComponent = () => {
       <section id="content" style={{ backgroundColor: "#f0f8ff" }}>
         <br></br>
         <div
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              textAlign: "center", // Optional: centers text within the div
-            }}
-            className="content"
-          >
-            <h3>
-              <strong> Content</strong>{" "}
-            </h3>
-          </div>
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            textAlign: "center", // Optional: centers text within the div
+          }}
+          className="content"
+        >
+          <h3>
+            <strong> Content</strong>{" "}
+          </h3>
+        </div>
         <br></br>
 
         <div
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              textAlign: "center", // Optional: centers text within the div
-            }}
-            className="content"
-          >
-            <h5>
-              <strong> Classification Details</strong>{" "}
-            </h5>
-          </div>
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            textAlign: "center", // Optional: centers text within the div
+          }}
+          className="content"
+        >
+          <h5>
+            <strong> Classification Details</strong>{" "}
+          </h5>
+        </div>
         <br></br>
 
         <Container>
@@ -206,6 +206,60 @@ const ContentPageComponent = () => {
             </Col>
           </Row>
         </Container>
+
+        <Container>
+          <p>
+            Blockchain can address concerns about data breaches and unauthorized
+            access to sensitive information, as medical records stored in a
+            blockchain become tamper-proof and can only be accessed by
+            authorized individuals. Insurance companies and healthcare providers
+            can use smart contracts to automate claim settlements—if all
+            predefined conditions (e.g., service delivery and eligibility
+            verification) are satisfied, the contract automatically triggers the
+            payout. DApps can be used for medical data sharing, ensuring secure
+            and efficient exchange of patient records between providers.
+            Blockchain ensures privacy and integrity by encrypting and
+            decentralizing patient records. It supports interoperability by
+            integrating semantic web standards (e.g., HL7 (Health Level Seven: A
+            set of standards for exchanging healthcare data between different
+            systems (e.g., hospitals, labs, pharmacies)), ICD (International
+            Classification of Diseases: A coding system used to classify and
+            code diagnoses, diseases, and procedures.)) that standardize
+            healthcare data formats.
+          </p>
+        </Container>
+
+        <Container>
+          <p>
+            Automation of Insurance Claims: OWL (Web Ontology Language: A
+            language used to create ontologies—formal descriptions of concepts
+            and relationships within a domain (e.g., medical conditions,
+            treatments).) and RDF (Resource Description Framework: A standard
+            model for data interchange on the web, allowing structured
+            information (like patient records) to be linked and processed
+            efficiently by machines.) allow complex health data (such as a
+            patient’s diagnosis and treatment history) to be formally
+            represented, making it easier for algorithms to process claims
+            without human intervention. Streamlined Data Sharing: When different
+            systems use OWL and RDF, they can exchange and understand data
+            consistently, promoting data interoperability. Streamlined Data
+            Sharing: When different systems use OWL and RDF, they can exchange
+            and understand data consistently, promoting data interoperability.
+          </p>
+        </Container>
+
+        <Container>
+          <p>
+            Blockchain combined with smart contracts and semantic web
+            technologies offers a powerful solution for the healthcare industry.
+            It ensures data security, privacy, and integrity, while semantic web
+            standards enable meaningful data exchange and automation of complex
+            processes like insurance claims. This integrated approach promotes
+            trust and efficiency in managing patient records, insurance
+            contracts, and other healthcare-related transactions.
+          </p>
+        </Container>
+        <br></br>
       </section>
     </div>
   );
