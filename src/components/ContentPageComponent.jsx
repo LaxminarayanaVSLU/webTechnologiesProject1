@@ -21,9 +21,37 @@ const ContentPageComponent = () => {
       {/* <NavBarComponent currentPage="ContentPage" /> */}
 
       <section id="content" style={{ backgroundColor: "#f0f8ff" }}>
-        {" "}
-        {/*, backgroundImage: `url(${backgroundImage})` }}> */}
         <br></br>
+        <div
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              textAlign: "center", // Optional: centers text within the div
+            }}
+            className="content"
+          >
+            <h3>
+              <strong> Content</strong>{" "}
+            </h3>
+          </div>
+        <br></br>
+
+        <div
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              textAlign: "center", // Optional: centers text within the div
+            }}
+            className="content"
+          >
+            <h5>
+              <strong> Classification Details</strong>{" "}
+            </h5>
+          </div>
+        <br></br>
+
         <Container>
           <Row>
             <Col md={6} className="mb-4">
@@ -175,47 +203,6 @@ const ContentPageComponent = () => {
                   privacy features.
                 </CardFooter>
               </Card>
-            </Col>
-          </Row>
-
-          <Row className="mt-4">
-            <Col>
-              <Table striped bordered hover data-aos="fade-up">
-                <thead>
-                  <tr>
-                    <th>#</th>
-                    <th>Item</th>
-                    <th>Description</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>1</td>
-                    <td>Item One</td>
-                    <td>Lorem ipsum dolor sit amet.</td>
-                  </tr>
-                  <tr>
-                    <td>2</td>
-                    <td>Item Two</td>
-                    <td>Quisque euismod odio nec magna.</td>
-                  </tr>
-                  <tr>
-                    <td>3</td>
-                    <td>Item Three</td>
-                    <td>Donec auctor magna id libero blandit.</td>
-                  </tr>
-                  <tr>
-                    <td>4</td>
-                    <td>Item Four</td>
-                    <td>Sed elementum eros sit amet nisl convallis.</td>
-                  </tr>
-                  <tr>
-                    <td>5</td>
-                    <td>Item Five</td>
-                    <td>Fusce vel velit sed odio facilisis congue.</td>
-                  </tr>
-                </tbody>
-              </Table>
             </Col>
           </Row>
         </Container>

@@ -20,36 +20,34 @@ import Carousel from "react-bootstrap/Carousel";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
-import Button from "react-bootstrap/Button";
 import "bootstrap/dist/js/bootstrap.bundle";
-import ImageWithTooltip from "./ImageWithTooltip";
 import "../styles/css/ImageWithTooltip.css";
 
 const images = [
   {
     name: "tanmaye",
     src: tanmayee,
-    description: "This is a description for Image 1.",
+    description: "Tanmayee Gayathri",
   },
   {
     name: "paul",
     src: paul,
-    description: "This is a description for Image 2.",
+    description: "Paul Ongkiko",
   },
   {
     name: "lax",
     src: lax,
-    description: "This is a description for Image 3.",
+    description: "Laxminarayana Vadnala.",
   },
   {
     name: "krishna",
     src: krishna,
-    description: "This is a description for Image 4.",
+    description: "Krishna Teja Rangavajjala",
   },
   {
     name: "roshitha",
     src: roshitha,
-    description: "This is carousel of roshitha.",
+    description: "Roshitha Makula",
   },
 ];
 
@@ -82,6 +80,22 @@ const TeamPageComponent = () => {
 
       <br></br>
       <section id="team">
+
+
+      <div
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              textAlign: "center", // Optional: centers text within the div
+            }}
+            className="content"
+          >
+            <h3>
+              <strong> Team</strong>{" "}
+            </h3>
+          </div>
+
         <div>
           {/* Carousel Section */}
           <Row className="mb-4">

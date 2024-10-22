@@ -17,7 +17,25 @@ const HomePageComponent = () => {
   return (
     <div>
       <div>
-        <section id="home" className="why-us section-bg" style={{ backgroundColor: '#f0f8ff' }}>
+        <section
+          id="home"
+          className="why-us section-bg"
+          style={{ backgroundColor: "#f0f8ff" }}
+        >
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              textAlign: "center", // Optional: centers text within the div
+            }}
+            className="content"
+          >
+            <h3>
+              <strong> Home</strong>{" "}
+            </h3>
+          </div>
+
           <div className="container-fluid" data-aos="fade-up">
             <div className="row">
               <div className="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
