@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/webTechnologiesProject1/static/css/main.92d8d206.css",
-    "main.js": "/webTechnologiesProject1/static/js/main.085884ef.js",
+    "main.js": "/webTechnologiesProject1/static/js/main.81868610.js",
     "static/media/lax.jpg": "/webTechnologiesProject1/static/media/lax.067bc6cf77e8c519da0d.jpg",
     "static/media/krishna.jpeg": "/webTechnologiesProject1/static/media/krishna.dfb24df75d84f100032a.jpeg",
     "static/media/tanmaye.jpeg": "/webTechnologiesProject1/static/media/tanmaye.601dc5b221080fdf9b39.jpeg",
@@ -13,10 +13,10 @@
     "static/media/logo-smart-contracts.png": "/webTechnologiesProject1/static/media/logo-smart-contracts.46de0e1d2bbb76d083a9.png",
     "index.html": "/webTechnologiesProject1/index.html",
     "main.92d8d206.css.map": "/webTechnologiesProject1/static/css/main.92d8d206.css.map",
-    "main.085884ef.js.map": "/webTechnologiesProject1/static/js/main.085884ef.js.map"
+    "main.81868610.js.map": "/webTechnologiesProject1/static/js/main.81868610.js.map"
   },
   "entrypoints": [
     "static/css/main.92d8d206.css",
-    "static/js/main.085884ef.js"
+    "static/js/main.81868610.js"
   ]
 }
